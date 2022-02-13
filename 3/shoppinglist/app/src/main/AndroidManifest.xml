@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoppingListDef">
         <activity
+            android:name=".AddCashVoucher"
+            android:exported="false" />
+        <activity
             android:name=".TakePhotos"
             android:exported="false" />
         <activity
@@ -19,7 +22,7 @@
             android:name=".AddProduct"
             android:exported="false" />
         <activity
-            android:name=".ListOfChecks"
+            android:name=".ListCashVoucher"
             android:exported="false" />
         <activity
             android:name=".Main"

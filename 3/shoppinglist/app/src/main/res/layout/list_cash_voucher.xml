@@ -4,15 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".TakePhotos">
-
-    <!-- https://developer.android.com/training/camera/photobasics.html#java -->
+    tools:context=".ListCashVoucher">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Сфотографировать товарный чек или QR-код"
+        android:text="Список всех покупок"
         android:gravity="center" />
 
 </LinearLayout>
