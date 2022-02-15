@@ -13,5 +13,5 @@
     <color name="statusBarColor">#66666666</color>
     <color name="globalBackground">#999999</color>
     <color name="windowBackground">#999999</color>
-    <color name="textViewStyle">#3333FF</color>
+    <color name="textViewStyle">#FFFFFFFF</color> <!-- #3333FF -->
 </resources>
