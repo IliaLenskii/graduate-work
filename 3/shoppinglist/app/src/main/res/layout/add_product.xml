@@ -4,13 +4,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddProduct">
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp"
+    android:gravity="center"
+    tools:context=".AddProduct" >
 
-    <TextView
-        android:id="@+id/textView"
+    <EditText
+        android:id="@+id/nameProduct"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Добавить товар"
-        android:gravity="center" />
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name_product"
+        android:inputType="text"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/quantityGoods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_quantity_goods"
+        android:inputType="number"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openIntentAddCashVoucher"
+        android:text="@string/add_new_product" />
 
 </LinearLayout>

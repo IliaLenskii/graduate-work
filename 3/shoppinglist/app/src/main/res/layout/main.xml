@@ -10,15 +10,6 @@
     android:gravity="center"
     tools:context=".Main" >
 
-<!--
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Аутентификация"
-        android:gravity="center" />
--->
-
     <EditText
         android:id="@+id/editTextPhone"
         android:layout_width="match_parent"
@@ -26,7 +17,8 @@
         android:ems="10"
         android:hint="@string/enter_your_phone_number"
         android:inputType="phone"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="24dp"
+        android:autofillHints="phone" />
 
     <Button
         android:id="@+id/button"

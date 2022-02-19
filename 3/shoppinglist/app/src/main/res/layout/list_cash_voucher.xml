@@ -9,15 +9,6 @@
     android:paddingBottom="8dp"
     tools:context=".ListCashVoucher">
 
-    <!--
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Список всех покупок"
-        android:gravity="center" />
-     -->
-
     <ListView
         android:id="@+id/voucherList"
         android:layout_width="match_parent"
@@ -25,8 +16,9 @@
         android:layout_weight="1" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/addCashVoucher"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/add_new_cash_voucher" />
+        android:text="@string/add_new_cash_voucher"
+        android:onClick="openIntentAddCashVoucher" />
 </LinearLayout>

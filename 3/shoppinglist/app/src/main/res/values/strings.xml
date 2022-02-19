@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Список покупок</string>
     <string name="enter_your_phone_number">Введите ваш номер телефона</string>
+    <string name="enter_name_list_voucher">Название списка покупок</string>
+    <string name="enter_name_product">Введите имя товара</string>
+    <string name="enter_quantity_goods">Введите количество</string>
     <string name="next">Далее</string>
     <string name="add_new_cash_voucher">Добавить</string>
+    <string name="add_new_product">Добавить товар</string>
 </resources>
